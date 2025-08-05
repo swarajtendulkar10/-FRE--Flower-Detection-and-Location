@@ -15,10 +15,17 @@ Install Realsense ROS2 Wrapper: https://github.com/IntelRealSense/realsense-ros
 
 # Steps of Implementation
 Clone the repository
+```bash
+git clone https://github.com/swarajtendulkar10/-FRE--Flower-Detection-and-Location
+```
 
 Add folders to the root folder
 
+
 Build the workspace
+```bash
+colcon build
+```
 
 Run the Detection Node
 
