@@ -22,4 +22,3 @@ Build the workspace
 
 Run the Detection Node
 
-# Results of Implementation
