@@ -14,7 +14,7 @@ from tf_transformations import euler_from_quaternion, quaternion_from_euler
 import math
 
 # Load the YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/user1/git3_ws/src/obj_track/src/flower.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='/your_workspace/src/obj_track/src/flower.pt', force_reload=True)
 
 # Set up the RealSense D455 camera
 pipeline = rs.pipeline()
