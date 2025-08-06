@@ -20,7 +20,9 @@ git clone https://github.com/swarajtendulkar10/-FRE--Flower-Detection-and-Locati
 ```
 
 Add folders to the root folder
-
+```bash
+mkdir launch/ worlds/ config/ include/ description/
+```
 
 Build the workspace
 ```bash
@@ -28,4 +30,6 @@ colcon build
 ```
 
 Run the Detection Node
-
+```bash
+ros2 run flower_detect flower_detection.py 
+```
